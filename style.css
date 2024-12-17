@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7ecee;
+}
+
+h2{
+    font-weight: 600;
+    color: #01a3a4;
+}
+
+.container{
+    width: 320px;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    margin: 20px 5px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+button{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btncopy{
+    background-color: #B53471;
+    color: white;
+    padding: 4px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+#btn-generate{
+    background-color: #B53471;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+#output{
+    width: 214px;
+    font-size:18px;
+    font-weight: bold;
+    padding:4px 10px ;
+    color: #747d8c;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+#length{
+    font-size: 18px;
+    width: 50px;
+    font-weight: bold;
+    color: #747d8c;
+    padding:4px 10px ;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+#number, #capital, #small, #Symbol{
+    width: 16px;
+    color: #079992;
+}
